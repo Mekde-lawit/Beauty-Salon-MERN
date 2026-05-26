@@ -1,0 +1,32 @@
+module.exports = {
+  development: {
+    username: process.env.DB_USERNAME || "root",
+    password: process.env.DB_PASSWORD || null,
+    database: process.env.DB_NAME || "beauty_salon_dev",
+    host: process.env.DB_HOST || "127.0.0.1",
+    port: process.env.DB_PORT,
+    dialect: "mysql",
+    migrationStorage: "json",
+    migrationStoragePath: "sequelizeMeta.json",
+  },
+  test: {
+    username: process.env.DB_USERNAME || "root",
+    password: process.env.DB_PASSWORD || null,
+    database: process.env.DB_NAME || "beauty_salon_dev",
+    host: process.env.DB_HOST || "",
+    port: process.env.DB_PORT,
+    dialect: "mysql",
+    migrationStorage: "json",
+    migrationStoragePath: "sequelizeMeta.json",
+  },
+  production: {
+    username: "proaddis_beauty_user",
+    password: "proaddis_beauty_pass",
+    database: "proaddis_beauty_salon",
+    host: process.env.DB_HOST || "",
+    port: process.env.DB_PORT,
+    dialect: "mysql",
+    migrationStorage: "json",
+    migrationStoragePath: "sequelizeMeta.json",
+  },
+};

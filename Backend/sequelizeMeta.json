@@ -1,0 +1,18 @@
+[
+  "20250323162608-create_role_and_user_table.js",
+  "20250415074817-create-user.js",
+  "20250415075507-create-user.js",
+  "20250415131307-create-role.js",
+  "20250415131315-create-user.js",
+  "20250415131326-create-branch.js",
+  "20250415131340-create-service.js",
+  "20250415131404-create-branch-service.js",
+  "20250415131929-add-availability-to-branch-service.js",
+  "20250421142654-update-user-model.js",
+  "20250421145544-create-appointment.js",
+  "20250518005644-add-deletedAt-to-users.js",
+  "20250518202402-add-branchId-to-users.js",
+  "20250525081810-user_phone_email_make_non_required.js",
+  "20250525082836-user_phone_and_email_not_unique.js",
+  "20250525083529-user_phone_remove_validation.js"
+]

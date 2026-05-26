@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "piccoloc_user",
+    "password": "rf#+nJg4L~4A",
+    "database": "piccoloc_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "piccoloc_user",
+    "password": "rf#+nJg4L~4A",
+    "database": "piccoloc_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "piccoloc_user",
+    "password": "rf#+nJg4L~4A",
+    "database": "piccoloc_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
