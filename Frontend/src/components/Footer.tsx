@@ -44,9 +44,9 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: <LocationOn />, text: "Gofa Gebriel, Addis Ababa, Ethiopia" },
-    { icon: <Phone />, text: "+251967274003 | +251984869468" },
-    { icon: <Email />, text: "info@samrrrbeautysalon.com" },
+    { icon: <LocationOn />, text: "Addis Ababa, Ethiopia" },
+    { icon: <Phone />, text: "+2519xxxxxxxx | +2519yyyyyyyy" },
+    { icon: <Email />, text: "info@yourdomain.com" },
   ];
 
   return (
@@ -65,7 +65,7 @@ const Footer = () => {
           {/* About Salon */}
           <Grid sx={{ flex: 1 }}>
             <Typography variant="h6" gutterBottom sx={{ fontWeight: 700 }}>
-              ሳምር የውበት ሳሎን
+              Glamour Beauty Salon
             </Typography>
             <Typography variant="body2" sx={{ mb: 2 }}>
               Your premier destination for luxury beauty treatments. We're
@@ -217,7 +217,7 @@ const Footer = () => {
           }}
         >
           <Typography variant="body2">
-            © {currentYear} ሳምር የውበት ሳሎን. All rights reserved.
+            © {currentYear} Glamour Beauty Salon. All rights reserved.
           </Typography>
           <Typography variant="body2" sx={{ mt: { xs: 2, sm: 0 } }}>
             Made with{" "}

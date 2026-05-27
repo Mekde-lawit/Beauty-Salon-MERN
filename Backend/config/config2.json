@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "piccoloc_user",
-    "password": "rf#+nJg4L~4A",
-    "database": "piccoloc_db",
+    "username": "root",
+    "password": "pass1234",
+    "database": "beauty_salon_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

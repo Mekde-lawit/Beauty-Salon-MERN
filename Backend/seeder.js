@@ -11,7 +11,7 @@ if (config.use_env_variable) {
     config.database,
     config.username,
     config.password,
-    config
+    config,
   );
 }
 
@@ -96,7 +96,7 @@ const runSeeders = async () => {
       {
         replacements: ["manager@glamoursalon.com"],
         type: Sequelize.QueryTypes.SELECT,
-      }
+      },
     );
 
     const BranchesData = await db.Branch.findAll();

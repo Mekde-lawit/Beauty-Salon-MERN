@@ -17,7 +17,7 @@ module.exports = {
     // 1. Company Settings
     await queryInterface.bulkInsert("CompanySettings", [
       {
-        companyName: "ሳምር የውበት ሳሎን",
+        companyName: "",
         logo: "/images/logo.png",
         description: "Premium beauty services with a touch of elegance",
         contactEmail: "info@glamoursalon.com",

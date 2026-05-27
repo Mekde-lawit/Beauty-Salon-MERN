@@ -3,19 +3,19 @@ import { pink } from "@mui/material/colors";
 
 const teamMembers = [
   {
-    name: "Smarawit Tsegaye",
+    name: "Alice Bob",
     role: "Manager",
-    image: "/images/photo1.jpg",
+    image: "/images/photo1.png",
   },
   {
-    name: "Sara Dendir",
+    name: "Sara James",
     role: "Makeup Artist",
-    image: "/images/photo2.jpg",
+    image: "/images/photo2.png",
   },
   {
-    name: "Rediet",
+    name: "Lily Brad",
     role: "Nail Artist",
-    image: "/images/photo3.jpg",
+    image: "/images/photo3.png",
   },
 ];
 

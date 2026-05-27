@@ -1,5 +1,6 @@
 import { Box, Button, Typography, useTheme } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
+import { pink } from "@mui/material/colors";
 
 const Hero = () => {
   const theme = useTheme();
@@ -44,7 +45,7 @@ const Hero = () => {
           alignItems: isMobile ? "center" : "flex-start",
           textAlign: isMobile ? "center" : "left",
           padding: isMobile ? theme.spacing(4) : theme.spacing(8),
-          color: "common.white",
+          color: pink[300],
           // backgroundColor: "rgba(0,0,0,0.3)",
         }}
       >

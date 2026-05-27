@@ -124,7 +124,7 @@ const Navbar = () => {
           }}
           onClick={() => navigate("/")}
         >
-          ሳምር የውበት ሳሎን
+          Glamour Beauty Salon
         </Typography>
 
         {/* Desktop Navigation */}

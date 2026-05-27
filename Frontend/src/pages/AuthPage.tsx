@@ -53,15 +53,15 @@ const AuthPage = ({ isLogin = true }) => {
       .max(50, "Too long")
       .required("Name is required"),
     email: yup.string().email("Invalid email").required("Email is required"),
-    // phone: yup
-    //   .string()
-    //   .matches(/^\+?[1-9]\d{1,14}$/, "Invalid phone number")
-    //   .required("Phone is required"),
-    // address: yup
-    //   .string()
-    //   .min(5, "Too short")
-    //   .max(100, "Too long")
-    //   .required("Address is required"),
+    phone: yup
+      .string()
+      .matches(/^\+?[1-9]\d{1,14}$/, "Invalid phone number")
+      .required("Phone is required"),
+    address: yup
+      .string()
+      .min(5, "Too short")
+      .max(100, "Too long")
+      .required("Address is required"),
     dateOfBirth: yup
       .date()
       .max(new Date(), "Date cannot be in future")
@@ -89,7 +89,7 @@ const AuthPage = ({ isLogin = true }) => {
           phone: "",
           address: "",
           sex: "other",
-          dateOfBirth: null,
+          dateOfBirth: "",
           password: "",
           confirmPassword: "",
         },
@@ -146,7 +146,7 @@ const AuthPage = ({ isLogin = true }) => {
                 id="name"
                 name="name"
                 label="Full Name"
-                value={formik.values.name}
+                value={formik.values.name || ""}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 error={formik.touched.name && Boolean(formik.errors.name)}
