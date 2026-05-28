@@ -55,7 +55,7 @@ const Contact = () => {
     } catch (err: any) {
       toast.error(
         err?.response?.data?.error ||
-          "Something went wrong. Please try again later."
+          "Something went wrong. Please try again later.",
       );
     } finally {
       setIsLoading(false);
@@ -63,7 +63,7 @@ const Contact = () => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormState({
       ...formState,
@@ -245,7 +245,7 @@ const Contact = () => {
 
               <Stack spacing={2}>
                 <Button
-                  href="http://facebook/sara dendir/"
+                  href="#"
                   startIcon={
                     <Box
                       sx={{
